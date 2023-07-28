@@ -1,5 +1,5 @@
-feedparser >= 6.0.10
-json >= 1.6.3
-bs4 >= 4.12.2
-requests >= 2.31.0
-urllib >=2.0.4
+feedparser == 6.0.10
+json == 1.6.3
+bs4 == 4.12.2
+requests == 2.31.0
+urllib ==2.0.4
