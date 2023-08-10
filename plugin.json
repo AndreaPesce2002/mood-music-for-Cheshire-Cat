@@ -1,4 +1,10 @@
 {
     "name": "mood music",
-    "description": "now the cat can tell you what is the latest news in the worldthis plugin allows you to ask the cat for the name and link of a song starting from a mood"
+    "description": "now the cat can tell you what is the latest news in the worldthis plugin allows you to ask the cat for the name and link of a song starting from a mood",
+    "author_name": "Andrea Pesce",
+    "author_url": "https://github.com/AndreaPesce2002",
+    "plugin_url": "https://github.com/AndreaPesce2002/mood-music-for-Cheshire-Cat",
+    "tags": "plugins",
+    "thumb": "",
+    "version": "1.0.0"
 }
