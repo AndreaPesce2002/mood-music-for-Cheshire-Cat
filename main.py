@@ -8,10 +8,11 @@ import urllib
 
 @tool()
 def mood_music(mood, cat):
-    """Useful for recommending a song. This tool recommends a song depending on your mood.
-     The input is the mood the user demonstrates."""
-     
-    site="youtube.com"
+    """Questo strumento consiglia una lista di canzone.
+     L'input è il tipo di canzone."""
+    
+    settings = cat.mad_hatter.get_plugin().load_settings()
+    site=settings['site']
     ricerca = 'canzoni+' + urllib.parse.quote(mood) + ' site:'+site
     url = 'http://www.google.com/search?q=' + ricerca
     r = requests.get(url)
